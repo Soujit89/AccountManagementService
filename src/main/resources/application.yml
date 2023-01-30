@@ -1,0 +1,27 @@
+spring:
+  application:
+    name: account-management-service    
+  datasource:
+    url: jdbc:h2:mem:db;DB_CLOSE_DELAY=-1
+    username: sa
+    password: sa
+    driverClassName: org.h2.Driver
+    testOnBorrow: true
+    validation-query: select 1
+    max-active: 20
+    max-idle: 10
+    max-wait: 10000
+    logAbandoned: true
+  jpa:    
+    show-sql: false
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate.cache.use_second_level_cache: true
+      hibernate.cache.use_query_cache: false
+      hibernate.generate_statistics: true
+      hibernate.cache.region.factory_class: org.hibernate.cache.ehcache.SingletonEhCacheRegionFactory
+
+server:
+  port: 8082
+

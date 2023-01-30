@@ -1,0 +1,12 @@
+INSERT INTO CUSTOMER_DETAILS (customer_id, customer_name, customer_address) VALUES (2000, 'SOUJIT', 'DENMARK');
+INSERT INTO ACCOUNT_DETAILS (account_number, account_type, account_balance, currency, customer_id) VALUES (1000, 'SAVINGS', 100, 'USD', 2000);
+INSERT INTO ACCOUNT_TRANSACTIONS_DETAILS (transaction_id, transaction_amount, transaction_type, transaction_time_stamp, account_number) VALUES (500, 200, 'DEPOSIT', '2023-01-30', 1000);
+INSERT INTO ACCOUNT_TRANSACTIONS_DETAILS (transaction_id, transaction_amount, transaction_type, transaction_time_stamp, account_number) VALUES (501, 700, 'DEPOSIT', '2023-01-29', 1000);
+INSERT INTO ACCOUNT_TRANSACTIONS_DETAILS (transaction_id, transaction_amount, transaction_type, transaction_time_stamp, account_number) VALUES (502, 100, 'DEPOSIT', '2023-01-28', 1000);
+INSERT INTO ACCOUNT_TRANSACTIONS_DETAILS (transaction_id, transaction_amount, transaction_type, transaction_time_stamp, account_number) VALUES (503, 200, 'WITHDRAW', '2023-01-27', 1000);
+INSERT INTO ACCOUNT_TRANSACTIONS_DETAILS (transaction_id, transaction_amount, transaction_type, transaction_time_stamp, account_number) VALUES (504, 200, 'WITHDRAW', '2023-01-26', 1000);
+INSERT INTO ACCOUNT_TRANSACTIONS_DETAILS (transaction_id, transaction_amount, transaction_type, transaction_time_stamp, account_number) VALUES (505, 100, 'DEPOSIT', '2023-01-25', 1000);
+INSERT INTO ACCOUNT_TRANSACTIONS_DETAILS (transaction_id, transaction_amount, transaction_type, transaction_time_stamp, account_number) VALUES (506, 300, 'DEPOSIT',  '2023-01-24', 1000);
+INSERT INTO ACCOUNT_TRANSACTIONS_DETAILS (transaction_id, transaction_amount, transaction_type, transaction_time_stamp, account_number) VALUES (507, 100, 'DEPOSIT',  '2023-01-23', 1000);
+INSERT INTO ACCOUNT_TRANSACTIONS_DETAILS (transaction_id, transaction_amount, transaction_type, transaction_time_stamp, account_number) VALUES (508, 200, 'WITHDRAW',  '2023-01-22', 1000);
+INSERT INTO ACCOUNT_TRANSACTIONS_DETAILS (transaction_id, transaction_amount, transaction_type, transaction_time_stamp, account_number) VALUES (509, 300, 'WITHDRAW',  '2023-01-21', 1000);

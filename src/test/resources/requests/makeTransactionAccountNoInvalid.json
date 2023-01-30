@@ -1,0 +1,5 @@
+{
+    "accountNumber" : 999,
+    "transactionAmount" : 800,
+    "transactionType" : "WITHDRAW"
+}
